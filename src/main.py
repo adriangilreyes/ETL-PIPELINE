@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(
     filename='logs/etl.log',
     level= logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(levelname)s - %(message)s" 
 )
 
 def main():
@@ -19,8 +19,8 @@ def main():
     print('Datos transformados')
 
     #load
-    load_data(df_clean)
-    print('Datos cargados en la base de datos')
+    load_data(df_clean) 
+    print('Datos cargados en la base de datos')   
 
-if __name__ == "__main__": 
-    main()
+if __name__ == "__main__":  
+    main() 

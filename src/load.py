@@ -6,4 +6,4 @@ def load_data(df):
     #cargamos la tabla
     df.to_sql('spambase',conn, if_exists='replace', index=False)
 
-    conn.close()
+    conn.close() 
