@@ -20,3 +20,10 @@ python src/main.py
 
 ## Dataset
 Dataset de envio de correos spam
+
+
+## Tecnologías
+- Python
+- Pandas
+- SQLITE
+- Logging
