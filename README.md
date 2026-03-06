@@ -17,3 +17,6 @@ src/
 ## Ejecutar
 
 python src/main.py
+
+## Dataset
+Dataset de envio de correos spam
