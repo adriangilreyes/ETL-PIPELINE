@@ -6,4 +6,7 @@ def transform_data(df):
 
     df = df.fillna(0)
 
+    df.to_csv('data/processed/spambase_clean.csv',index=False)
+
     return df
+
